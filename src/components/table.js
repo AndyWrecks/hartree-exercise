@@ -96,7 +96,7 @@ export default function TableComponent() {
               fields: convertDummyJsonToTableData(data, {
                 rating: {
                   custom: {
-                    width: 150,
+                    width: 200,
                     displayMode: "gradient-gauge",
                   },
                   thresholds: {
@@ -133,15 +133,15 @@ export default function TableComponent() {
       className={cx(
         styles.wrapper,
         css`
-          width: 100vh;
-          height: 100vw;
+          width: 100%;
+          height: 100%;
         `
       )}
     >
       <Table
         data={tableData}
-        width={1000}
-        height={1000}
+        width={1500}
+        height={1500}
         columnMinWidth={0}
       ></Table>
     </div>
