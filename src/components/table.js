@@ -73,7 +73,6 @@ function convertDummyJsonToTableData(products, config) {
 
 async function getDummyJson() {
   return await axios.get("https://dummyjson.com/products").then((res) => {
-    console.log("triggering");
     return res.data.products;
   });
 }
