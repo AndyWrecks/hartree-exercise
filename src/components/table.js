@@ -35,8 +35,6 @@ function convertDummyJsonToTableData(products, config) {
   const tableData = [];
 
   products.forEach((product) => {
-    // {name: 'Time', type: FieldType.time, values: []}
-
     forOwn(product, (value, key) => {
       // Creating Arrays for each column
       if (!tableData.some((entry) => entry.name === key)) {
