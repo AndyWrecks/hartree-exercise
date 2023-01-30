@@ -104,7 +104,7 @@ export default function TableComponent() {
                       },
                       {
                         color: "green",
-                        value: 20,
+                        value: 0,
                       },
                     ],
                     mode: ThresholdsMode.Absolute,
